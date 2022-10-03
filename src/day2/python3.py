@@ -4,7 +4,7 @@ x = 10
 # check the data type
 print(type(x))
 
-# reassign value frmo 10 to Hello
+# reassign value from 10 to Hello
 x = "Hello"
 print(type(x))
 
