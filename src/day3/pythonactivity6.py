@@ -1,12 +1,10 @@
-number = int(number) * int(number)
+number = int(input("Enter number: "))
+exponent = int(input("Enter exponent: "))
 
-result = 1
-number = 1
-while number > 0:
-    number = int(input("Enter number: "))
-    exponent = int(input("Enter exponent: "))
+ctr = exponent
+while ctr <= int(exponent):
+    result = number ** exponent
     print(f'{number} raised to {exponent} is {result}')
-    if number < 0:
-        result = result * number
-print("Bye!")
+    ctr += 1
+
 
